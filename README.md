@@ -54,12 +54,17 @@ QR-Code-Maker/
 
 ```bash
 git clone https://github.com/niffy024/qr-code-maker.git
+
 2️⃣ Navigate into the project folder
 cd qr-code-maker
+
 3️⃣ Install dependencies
 npm install
+
 4️⃣ Start the server
 npm start
+or npm run dev
+
 The application will run at:
 http://localhost:3000
 
@@ -70,8 +75,10 @@ The qrcode library generates a QR image.
 The image is converted into a Base64 Data URL.
 EJS dynamically renders the generated QR code.
 User can download the QR code instantly.
+
 📥 Download Feature
 The QR code is downloadable directly using the browser’s native download capability without saving files permanently on the server.
+
 🚧 Future Improvements
 Add QR customization (color & size)
 Copy QR image button
@@ -79,11 +86,14 @@ Dark mode UI
 QR code history
 API endpoint for QR generation
 Drag & drop URL input
+
 👨‍💻 Author
 Abdulahi Ogunlesi
 GitHub: https://github.com/niffy024
 LinkedIn: Abdulahi Ogunlesi
+
 📄 License
 This project is open-source and available under the MIT License.
+
 ⭐ Support
 If you like this project, consider giving it a ⭐ on GitHub!
