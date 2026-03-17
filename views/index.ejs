@@ -10,6 +10,17 @@
 
 <body>
 
+    <% if(qr){%>
+<div class="qrCode">
+<img src="<%= qr %>" width="450px" height="450px">
+<p>
+<a href="<%= qr %>" download="qrcode.png">
+   <button type="downloadQR">Download QR Code</button>
+</a></p>
+
+  </div>
+  
+  <% }else{ %>
   <div class="container">
     <form action="generate" method="post" class="qr-form">
       <h1>QR Code Maker</h1>
@@ -20,6 +31,8 @@
       <button type="submit">Turn to QR Code</button>
     </form>
   </div>
+<% } %>
+  
 
 </body>
 </html>
